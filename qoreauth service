@@ -1,0 +1,51 @@
+## Introduction
+QoreAuth is a microservice within our comprehensive microservices architecture, dedicated to user authentication. This service leverages Firebase for user creation and
+Multi-Factor Authentication (MFA) to enhance security. User data is persistently stored in a PostgreSQL (PG) database, forming a crucial component of our distributed system.
+
+## Features
+- User Creation in Firebase: Seamless integration with Firebase for creating and managing user accounts.
+- Multi-Factor Authentication (MFA):** Enhance security by enabling MFA through both mobile and email verification.
+- PostgreSQL Database Integration:** Persistently store user data in a PostgreSQL database for efficient retrieval.
+
+## User Creation in Firebase
+1. Firebase Configuration:
+   - Configure QoreAuth with Firebase credentials to establish a secure connection.
+
+2. User Registration:
+   - QoreAuth provides endpoints for user registration, including necessary information like email, password, and optional user details.
+
+3. Firebase Authentication:
+   - Utilize Firebase Authentication services to securely create and manage user accounts.
+
+## Multi-Factor Authentication (MFA)
+1. Email Verification:
+   - Upon user registration, QoreAuth triggers an email verification process through Firebase.
+2. Mobile Verification:
+   - Enable mobile verification for added security. Users receive a one-time code via SMS for verification.
+3. MFA Configuration:
+   - QoreAuth provides endpoints to manage MFA settings, allowing users to enable or disable MFA options.
+
+## PostgreSQL Database
+1. User Data Storage:
+   - QoreAuth securely stores user data, including authentication details and optional profile information, in a PostgreSQL database.
+
+2. Efficient Retrieval:
+   - Utilize PostgreSQL's querying capabilities for efficient retrieval of user data when required.
+
+## Project Structure
+Our project structure is organized as follows:
+- `/src`: Contains the main source code for QoreAuth microservices.
+- `/controllers`: Manages REST API endpoints for user registration, MFA settings, and other authentication-related functionalities.
+- `/services`: Implements business logic for user creation, MFA processes, and database interactions.
+
+## Discription : 
+- Purpose and Significance
+QoreAuth plays a pivotal role in our microservices architecture, serving as the primary user authentication and authorization layer. The integration with Firebase ensures a reliable
+and secure authentication process, while the utilization of PostgreSQL enables efficient user data management.
+- Security Measures
+Security is a top priority for QoreAuth. The implementation of Multi-Factor Authentication (MFA) through both email and mobile verification adds an additional layer of security
+to protect user accounts from unauthorized access.
+-Scalability and Efficiency
+QoreAuth is designed to scale seamlessly with the growing number of users and transactions. The choice of Firebase and PostgreSQL ensures that the microservice can handle authentication
+requests efficiently and store user data reliably.
+
