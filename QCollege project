@@ -1,0 +1,23 @@
+
+## Introduction  :  Welcome to the QCollege project! QCollege is related to facilitate the management of courses, topics, and attachments in an educational setting.
+The project emphasizes seamless integration with Google Cloud Platform (GCP) for efficient storage and retrieval of attachments. and data save in postgresql database.
+
+## Features      : 
+- Category: Organize educational content into different categories.
+- Course: Manage various courses within each category.
+- Topic: Divide courses into topics for a structured learning experience.
+- Attachment: Associate attachments (PDFs, videos, etc.) with corresponding topics.
+- GCP Integration: Store attachments securely on Google Cloud Platform, with links accessible on the platform.
+
+## Technologies Used : 
+- Java: Core programming language for the backend logic.
+- Spring Boot: Framework for building Java-based enterprise applications.
+- Google Cloud Platform (GCP): Cloud services for secure attachment storage.
+
+## Project Structure :
+Our project structure is organized as follows:
+- `/src`: Contains the main source code for the Java application.
+- `/models`: Defines Java classes representing entities like courses, topics, and attachments.
+- `/controllers`: Manages REST API endpoints for handling requests.
+- `/services`: Implements business logic for managing courses, topics, and attachments.
+
