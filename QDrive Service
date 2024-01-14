@@ -1,0 +1,25 @@
+# QDrive - Health Domain Project
+
+## Introduction
+Welcome to QDrive, a critical service within our comprehensive health domain project. QDrive specializes in securely managing and storing client documents, focusing on patient records,
+insurance documents, and incorporating a Revenue Cycle Management (RCM) component. This project is developed for BlueCross Health Company, a leading health domain provider in the USA.
+
+## Features
+- Document Management: Efficiently store and retrieve patient and insurance documents.
+- Revenue Cycle Management (RCM): Streamline financial processes related to healthcare services.
+- PostgreSQL Database: Utilize PostgreSQL for robust and scalable data storage.
+- Secure Data Handling: Prioritize security measures to ensure compliance with healthcare data regulations.
+
+## Project Structure
+Our project structure is organized as follows:
+- `/src`: Contains the main source code for QDrive services.
+- `/models`: Defines database schemas for storing patient and insurance document data.
+- `/controllers`: Manages REST API endpoints for handling document management and RCM.
+- `/services`: Implements business logic for secure data handling and RCM processes.
+
+## Description
+QDrive plays a pivotal role in our broader health domain initiative, serving as the backbone for document management and Revenue Cycle Management (RCM). 
+In the complex landscape of healthcare, efficient and secure handling of patient and insurance documents is paramount. QDrive ensures the confidentiality,
+integrity, and accessibility of these critical documents, promoting streamlined operations and compliance with healthcare data regulations.
+
+
